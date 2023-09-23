@@ -2,11 +2,18 @@
 name = "notes"
 version = "0.1.0"
 description = ""
-authors = ["yoshino <44nocycle@gmail.com>"]
+authors = ["yoshino"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
+jupyterlab = "^4.0.6"
+diffusers = "^0.21.2"
+torchvision = "^0.15.2"
+transformers = "^4.33.2"
+omegaconf = "^2.3.0"
+controlnet-aux = "^0.0.7"
+rembg = "^2.0.50"
 
 
 [build-system]
